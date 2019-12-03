@@ -1,4 +1,15 @@
 #include <iostream>
+#include <windows.h>                      
+#include <iostream>                      
+#include <conio.h>                       
+
+using namespace std;                     
+
+int gotoxy(USHORT x,USHORT y){                                  
+COORD cp={x,y};                                                 
+SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),cp);   
+}
+
 using name space std;
 //ESTRUCTURA CARRO
 struct CARRO{
