@@ -57,6 +57,7 @@ char tipo [20];
 
 int main(){
 	menu();
+	int hre=0,hrs=0,mine=0,mins=0,tiempo=0,tiempoe=0,tiempos=0,tiempoce=0,valor=0,opc=0;
 }
 
 
